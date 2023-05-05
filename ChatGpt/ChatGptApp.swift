@@ -11,7 +11,7 @@ import SwiftUI
 struct ChatGptApp: App {
     var body: some Scene {
         WindowGroup {
-            ChatView()
+            Deneme(onerilenler: eglence)
         }
     }
 }

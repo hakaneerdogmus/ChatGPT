@@ -12,25 +12,28 @@ import Combine
 class OpenAIService {
     let baseUrl = "https:api.openai.com/v1/"
     
-    func sendMessage(message: String) -> AnyPublisher<OpenAICompetionsResponse, Error> {
+    func sendMessage(message: String) -> AnyPublisher<OpenAICompletionsResponse, Error> {
         let body = OpenAICompletionsBody(model: "text-davinci-003", prompt: message, temperature: 0.7, max_tokens: 256)
-        
+  
         let headers: HTTPHeaders = [
             "Authorization": "Bearer \(Constants.openAIAPIKey)"
         ]
 
-        return Future { [weak self] promise in
-            guard let self = self else {return}
+        return Future { [weak self]promise in
+            guard let self = self else{ return }
             AF.request(self.baseUrl + "completions", method: .post, parameters: body, encoder: .json, headers: headers)
-                .responseDecodable(of: OpenAICompetionsResponse.self) { response in
-                    switch response.result {
-                    case .success(let result): promise(.success(result))
-                    case .failure(let error): promise(.failure(error))
-                    }
-                }
-        }
+           .responseDecodable(of: OpenAICompletionsResponse.self) { response in
+               switch response.result {
+               case .success(let result):
+                   promise(.success(result))
+               case .failure(let error):
+                   promise(.failure(error))
+               }
+           }
+       }
         .eraseToAnyPublisher()
-        
+  
+
            }
 }
 
@@ -41,11 +44,12 @@ struct OpenAICompletionsBody: Encodable {
     let max_tokens: Int
 }
 
-struct OpenAICompetionsResponse: Decodable {
+struct OpenAICompletionsResponse: Decodable {
     let id: String
     let choices: [OpenAICompetionsChoice]
 }
-
 struct OpenAICompetionsChoice: Decodable {
     let text: String
 }
+
+

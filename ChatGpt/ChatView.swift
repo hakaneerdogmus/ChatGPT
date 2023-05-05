@@ -2,14 +2,14 @@
 //  ChatView.swift
 //  ChatGpt
 //
-//  Created by Hakan ERDOĞMUŞ on 16.04.2023.
+//  Created by Hakan ERDOĞMUŞ on 28.04.2023.
 //
 
 import SwiftUI
 import Combine
 
 struct ChatView: View {
-    
+    var fieldText = ""
     @State var chatMessage: [ChatMessage] = []
     @State var messageText: String = ""
     let openAIService = OpenAIService()
@@ -25,7 +25,7 @@ struct ChatView: View {
                 }
             }
             HStack{
-                TextField("Enter a message", text: $messageText){
+                TextField(fieldText, text: $messageText){
                     
                 }
                     .padding()
@@ -40,11 +40,11 @@ struct ChatView: View {
                         .background(.black)
                         .cornerRadius(12)
                 })
+                
+            
             }
             .padding()
-            .onAppear{
-                openAIService.sendMessage(message: "Generate a tagline for an ice cream shop")
-            }
+            
             
             
         }
@@ -76,6 +76,7 @@ struct ChatView: View {
         }
         .store(in: &cancellables)
         messageText = ""
+        print(chatMessage)
        
     }
     

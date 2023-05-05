@@ -7,37 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E07A8BC29FFCE1D0012FC70 /* DetayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07A8BB29FFCE1D0012FC70 /* DetayOne.swift */; };
+		7E07A8C029FFEE320012FC70 /* DetayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07A8BF29FFEE320012FC70 /* DetayTwo.swift */; };
+		7E07A8C229FFF3000012FC70 /* DetayThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07A8C129FFF3000012FC70 /* DetayThree.swift */; };
+		7E07A8C429FFF3920012FC70 /* DetayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07A8C329FFF3920012FC70 /* DetayFour.swift */; };
+		7E07A8C629FFF3E70012FC70 /* DetayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07A8C529FFF3E70012FC70 /* DetayFive.swift */; };
 		7E199A4229F83E4100F0C569 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E199A4129F83E4100F0C569 /* Constans.swift */; };
 		7E199A4429F83ECC00F0C569 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E199A4329F83ECC00F0C569 /* OpenAIService.swift */; };
-		7E199A4729F8433900F0C569 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7E199A4629F8433900F0C569 /* Alamofire */; };
+		7E275BBF29FEA300006BA950 /* Deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E275BBE29FEA300006BA950 /* Deneme.swift */; };
 		7E7770F529F1384C00A27E3C /* DetayOnerilenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7770F429F1384C00A27E3C /* DetayOnerilenView.swift */; };
+		7E7EA14E2A05256300866C59 /* GecmisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EA14D2A05256300866C59 /* GecmisView.swift */; };
+		7E7EA1502A05258C00866C59 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EA14F2A05258C00866C59 /* SettingView.swift */; };
+		7E7FC6832A043A8100256B6D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7FC6822A043A8100256B6D /* Alamofire */; };
 		7E9DA6E129EF4BEE0067B7FB /* Onerilen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9DA6E029EF4BEE0067B7FB /* Onerilen.swift */; };
 		7E9DA6E329EF57270067B7FB /* OnerilenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9DA6E229EF57270067B7FB /* OnerilenView.swift */; };
+		7EAE590829FC5F3A009E53B7 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE590729FC5F3A009E53B7 /* ChatView.swift */; };
+		7EAE590A29FC5F71009E53B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE590929FC5F71009E53B7 /* ContentView.swift */; };
 		7EBC065029EC252300018B53 /* ChatGptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC064F29EC252300018B53 /* ChatGptApp.swift */; };
-		7EBC065229EC252300018B53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC065129EC252300018B53 /* ContentView.swift */; };
 		7EBC065429EC252400018B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBC065329EC252400018B53 /* Assets.xcassets */; };
 		7EBC065729EC252400018B53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBC065629EC252400018B53 /* Preview Assets.xcassets */; };
-		7EBC066029EC2A3B00018B53 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC065F29EC2A3B00018B53 /* ChatView.swift */; };
 		7EBC066229EC96E700018B53 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC066129EC96E700018B53 /* TopBarView.swift */; };
-		7EBC066429ECAD5100018B53 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC066329ECAD5100018B53 /* ScrollView.swift */; };
-		7EF35EC929F3CC0F009DF6E1 /* deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF35EC829F3CC0F009DF6E1 /* deneme.swift */; };
+		7EBC066429ECAD5100018B53 /* MyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC066329ECAD5100018B53 /* MyScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E07A8BB29FFCE1D0012FC70 /* DetayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayOne.swift; sourceTree = "<group>"; };
+		7E07A8BF29FFEE320012FC70 /* DetayTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayTwo.swift; sourceTree = "<group>"; };
+		7E07A8C129FFF3000012FC70 /* DetayThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayThree.swift; sourceTree = "<group>"; };
+		7E07A8C329FFF3920012FC70 /* DetayFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayFour.swift; sourceTree = "<group>"; };
+		7E07A8C529FFF3E70012FC70 /* DetayFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayFive.swift; sourceTree = "<group>"; };
 		7E199A4129F83E4100F0C569 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		7E199A4329F83ECC00F0C569 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		7E275BBE29FEA300006BA950 /* Deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deneme.swift; sourceTree = "<group>"; };
 		7E7770F429F1384C00A27E3C /* DetayOnerilenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayOnerilenView.swift; sourceTree = "<group>"; };
+		7E7EA14D2A05256300866C59 /* GecmisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GecmisView.swift; sourceTree = "<group>"; };
+		7E7EA14F2A05258C00866C59 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		7E9DA6E029EF4BEE0067B7FB /* Onerilen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onerilen.swift; sourceTree = "<group>"; };
 		7E9DA6E229EF57270067B7FB /* OnerilenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnerilenView.swift; sourceTree = "<group>"; };
+		7EAE590729FC5F3A009E53B7 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		7EAE590929FC5F71009E53B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EBC064C29EC252300018B53 /* ChatGpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGpt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBC064F29EC252300018B53 /* ChatGptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGptApp.swift; sourceTree = "<group>"; };
-		7EBC065129EC252300018B53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EBC065329EC252400018B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EBC065629EC252400018B53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7EBC065F29EC2A3B00018B53 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		7EBC066129EC96E700018B53 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
-		7EBC066329ECAD5100018B53 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
-		7EF35EC829F3CC0F009DF6E1 /* deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme.swift; sourceTree = "<group>"; };
+		7EBC066329ECAD5100018B53 /* MyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,16 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E199A4729F8433900F0C569 /* Alamofire in Frameworks */,
+				7E7FC6832A043A8100256B6D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E07A8BE29FFEB9F0012FC70 /* DetayViews */ = {
+			isa = PBXGroup;
+			children = (
+				7E07A8BB29FFCE1D0012FC70 /* DetayOne.swift */,
+				7E07A8BF29FFEE320012FC70 /* DetayTwo.swift */,
+				7E07A8C129FFF3000012FC70 /* DetayThree.swift */,
+				7E07A8C329FFF3920012FC70 /* DetayFour.swift */,
+				7E07A8C529FFF3E70012FC70 /* DetayFive.swift */,
+				7E275BBE29FEA300006BA950 /* Deneme.swift */,
+			);
+			path = DetayViews;
+			sourceTree = "<group>";
+		};
 		7EBC064329EC252300018B53 = {
 			isa = PBXGroup;
 			children = (
+				7E07A8BE29FFEB9F0012FC70 /* DetayViews */,
 				7EBC066529ECAD6700018B53 /* VViews */,
 				7EBC064E29EC252300018B53 /* ChatGpt */,
 				7EBC064D29EC252300018B53 /* Products */,
@@ -72,12 +100,10 @@
 		7EBC064E29EC252300018B53 /* ChatGpt */ = {
 			isa = PBXGroup;
 			children = (
+				7EAE590729FC5F3A009E53B7 /* ChatView.swift */,
 				7EBC064F29EC252300018B53 /* ChatGptApp.swift */,
-				7EBC065129EC252300018B53 /* ContentView.swift */,
-				7EF35EC829F3CC0F009DF6E1 /* deneme.swift */,
+				7EAE590929FC5F71009E53B7 /* ContentView.swift */,
 				7E9DA6E029EF4BEE0067B7FB /* Onerilen.swift */,
-				7E199A4129F83E4100F0C569 /* Constans.swift */,
-				7E199A4329F83ECC00F0C569 /* OpenAIService.swift */,
 				7EBC065329EC252400018B53 /* Assets.xcassets */,
 				7EBC065529EC252400018B53 /* Preview Content */,
 			);
@@ -95,11 +121,14 @@
 		7EBC066529ECAD6700018B53 /* VViews */ = {
 			isa = PBXGroup;
 			children = (
-				7EBC065F29EC2A3B00018B53 /* ChatView.swift */,
+				7E199A4329F83ECC00F0C569 /* OpenAIService.swift */,
+				7E199A4129F83E4100F0C569 /* Constans.swift */,
 				7EBC066129EC96E700018B53 /* TopBarView.swift */,
-				7EBC066329ECAD5100018B53 /* ScrollView.swift */,
+				7EBC066329ECAD5100018B53 /* MyScrollView.swift */,
 				7E9DA6E229EF57270067B7FB /* OnerilenView.swift */,
 				7E7770F429F1384C00A27E3C /* DetayOnerilenView.swift */,
+				7E7EA14D2A05256300866C59 /* GecmisView.swift */,
+				7E7EA14F2A05258C00866C59 /* SettingView.swift */,
 			);
 			path = VViews;
 			sourceTree = "<group>";
@@ -121,7 +150,7 @@
 			);
 			name = ChatGpt;
 			packageProductDependencies = (
-				7E199A4629F8433900F0C569 /* Alamofire */,
+				7E7FC6822A043A8100256B6D /* Alamofire */,
 			);
 			productName = ChatGpt;
 			productReference = 7EBC064C29EC252300018B53 /* ChatGpt.app */;
@@ -152,7 +181,7 @@
 			);
 			mainGroup = 7EBC064329EC252300018B53;
 			packageReferences = (
-				7E199A4529F8433900F0C569 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7E7FC6812A043A8100256B6D /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 7EBC064D29EC252300018B53 /* Products */;
 			projectDirPath = "";
@@ -181,15 +210,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E7770F529F1384C00A27E3C /* DetayOnerilenView.swift in Sources */,
-				7EF35EC929F3CC0F009DF6E1 /* deneme.swift in Sources */,
 				7E199A4229F83E4100F0C569 /* Constans.swift in Sources */,
-				7EBC065229EC252300018B53 /* ContentView.swift in Sources */,
+				7E07A8C629FFF3E70012FC70 /* DetayFive.swift in Sources */,
+				7E7EA1502A05258C00866C59 /* SettingView.swift in Sources */,
+				7E7EA14E2A05256300866C59 /* GecmisView.swift in Sources */,
+				7EAE590829FC5F3A009E53B7 /* ChatView.swift in Sources */,
+				7E07A8C229FFF3000012FC70 /* DetayThree.swift in Sources */,
 				7E9DA6E129EF4BEE0067B7FB /* Onerilen.swift in Sources */,
+				7E07A8BC29FFCE1D0012FC70 /* DetayOne.swift in Sources */,
+				7E07A8C429FFF3920012FC70 /* DetayFour.swift in Sources */,
+				7E275BBF29FEA300006BA950 /* Deneme.swift in Sources */,
+				7E07A8C029FFEE320012FC70 /* DetayTwo.swift in Sources */,
 				7E9DA6E329EF57270067B7FB /* OnerilenView.swift in Sources */,
 				7E199A4429F83ECC00F0C569 /* OpenAIService.swift in Sources */,
-				7EBC066029EC2A3B00018B53 /* ChatView.swift in Sources */,
 				7EBC066229EC96E700018B53 /* TopBarView.swift in Sources */,
-				7EBC066429ECAD5100018B53 /* ScrollView.swift in Sources */,
+				7EAE590A29FC5F71009E53B7 /* ContentView.swift in Sources */,
+				7EBC066429ECAD5100018B53 /* MyScrollView.swift in Sources */,
 				7EBC065029EC252300018B53 /* ChatGptApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +431,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7E199A4529F8433900F0C569 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		7E7FC6812A043A8100256B6D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -406,9 +442,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7E199A4629F8433900F0C569 /* Alamofire */ = {
+		7E7FC6822A043A8100256B6D /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7E199A4529F8433900F0C569 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 7E7FC6812A043A8100256B6D /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -13,7 +13,7 @@ struct OnerilenView: View {
     
     var body: some View {
         
-        Text("  \(onerilen.name)  ")
+        Text("  \(onerilen.name)   ")
             .font(.title)
             .bold()
             .frame(height: 60)
